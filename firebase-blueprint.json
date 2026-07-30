@@ -1,0 +1,29 @@
+{
+  "entities": {
+    "users": {
+      "title": "Users",
+      "description": "Registered user accounts",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string" },
+        "email": { "type": "string" },
+        "displayName": { "type": "string" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["uid", "email"]
+    },
+    "resumes": {
+      "title": "Resumes",
+      "description": "User saved resumes and drafts",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "userId": { "type": "string" },
+        "title": { "type": "string" },
+        "updatedAt": { "type": "string" },
+        "resumeData": { "type": "object" }
+      },
+      "required": ["id", "userId", "updatedAt", "resumeData"]
+    }
+  }
+}

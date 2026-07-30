@@ -1,0 +1,6 @@
+{
+  "name": "ResumeUp AI - ATS Resume Builder & Scanner",
+  "description": "Free ATS-friendly resume builder, 28-check portal test suite (Workday, Greenhouse, Lever, Taleo), and Job Description keyword optimizer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
